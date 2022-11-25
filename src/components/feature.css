@@ -1,0 +1,31 @@
+.featuresMain{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.feactRight{
+    width: 40%;
+}
+.featchLeft{
+    width: 40%;
+}
+.featureImg{
+    width: 100%;
+}
+.featureLi {
+    display: flex;
+    gap: 8px;
+}
+.featureUl {
+   
+    padding: 0;
+}
+.featureH {
+    width: 75%;
+    line-height: 50px;
+}
+p.featureP {
+    line-height: 30px;
+}

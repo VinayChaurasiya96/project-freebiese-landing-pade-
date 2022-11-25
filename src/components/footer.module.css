@@ -1,0 +1,83 @@
+.footerMain{
+    
+    margin: 40px 0px;
+    display: flex;
+   
+   
+    
+}
+.rightFooter{
+    display: flex;
+    width: 55%; 
+   
+}
+.leftFooter{
+    width: 45%;
+   
+}
+.socialIcons{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footerIcon{
+    width: 100px;
+}
+.socialIc{
+    width: 35px;
+}
+
+.lasVPN{
+    font-weight: 600;
+}
+
+.leftP{
+    width: 62%;
+    font-size: 15px;
+    line-height: 23px;
+}
+.copyRight{
+    opacity: 0.5;
+}
+
+.footerRightLiMain{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+}
+.footerRightHeading{
+    margin: 0;
+}
+
+.ulPad{
+    padding: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footerRightLiMain{
+       
+        gap: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .leftFooter{
+        width: 30%;
+       
+       
+    }
+    .rightFooter{
+        display: flex;
+        width: 65%; 
+       
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    
+}
+

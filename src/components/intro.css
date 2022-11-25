@@ -1,0 +1,84 @@
+.introSpec{
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    box-shadow: 7px 12px 18px #c3a4a4;
+    padding: 23px 0px;
+}
+.introFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftContent{
+   
+    width: 50%;
+}
+.rightContent{
+   
+    width: 40%;
+}
+.specFlexItem{
+
+ display: flex;
+ gap: 15px;
+}
+.introLeftHeading{
+    width: 60%;
+    line-height: 50px;
+    font-size: 30px;
+}
+.introLasp{
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+}
+.menImgSize{
+    width: 100%;
+}
+.introParawidth{
+    line-height: 30px;
+    width: 100%;
+}
+.startBtn{
+    background-color: #F53838;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.intoHeading{
+    margin: 0;
+}
+.introPara{
+    margin: 0;
+}
+.introIcnsSize {
+    width: 26px;
+    height: 26px;
+    background-color: #FFECEC;
+    border-radius: 100%;
+    padding: 12px;
+}
+.borderRight1{
+    position: absolute;
+    top: 0;
+    left: 33%;
+    border-right: 1px solid #c2c7d6;;
+    width: 5px;
+    height: 100%;
+}
+.borderRight2{
+    position: absolute;
+    top: 0;
+    left: 66%;
+    border-right: 1px solid #c2c7d6;
+    width: 5px;
+    height: 100%;
+}
+

@@ -1,0 +1,168 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.logoSize{
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    color:#4F5665;
+    gap: 25px;
+
+    
+}
+.signInBtn{
+ background: none;
+ border: none;
+ font-weight: 600;
+}
+.signInBtn:hover{
+    cursor: pointer;
+}
+.signUpBtn{
+    background: none;
+    border: 0.469826px  solid #F53855;
+    border-radius: 23.49px;
+    padding: 8px 25px;
+    color: #F53855;
+    font-weight: 600;
+    
+}
+.signUpBtn:hover{
+    cursor: pointer;
+}
+.btnFlex{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  
+}
+.listhover{
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+    
+}
+.listhover:hover{
+  cursor: pointer;
+  border-color: #4F5665;
+  
+}
+.navIcon{
+    display: none;
+    cursor: pointer;
+}
+.mobileMenu{
+    position: absolute;
+    top: 44px;
+    background-color: whitesmoke;
+    color: #4F5665;
+    width: 100%;
+   
+    
+    
+}
+.mobileList{
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+  
+}
+.mobileUl{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 5px 25px;
+    
+}
+.mobileSignInList{
+    list-style: none;
+    margin-bottom: 10px;
+    
+   
+}
+.mobileSignUpList{
+    list-style: none;
+    
+    
+}
+.mobileSignInBtn{
+    background: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+    font-size: 17px;
+  
+}
+.mobileSignUpBtn{
+    background: none;
+    font-size: 17px;
+   cursor: pointer;
+    padding: 0;
+    color: #F53855;
+    font-weight: 600;
+    margin-bottom: 40px;
+    border: 1px solid #F53855;
+    padding: 5px 15px;
+    border-radius: 23px;
+    margin-left: -15px;
+}
+  
+
+.btnS{
+    padding: 5px 25px;
+}
+.listHidden{
+ display: none;
+}
+.navHead{
+    background-color: black;
+}
+
+
+
+ 
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 10px 50px;
+       
+      
+      }
+    .list{
+        display: none;
+    }
+    .btnFlex{
+        display: none;
+    }
+    .navIcon{
+        display: block;
+    }
+    
+}
+
+  @media only screen and (max-width: 480px) {
+    
+    body {
+        margin: 0;
+        padding: 5px 20px;
+       
+      
+      }
+}
+@media only screen and (min-width: 768px) {
+    .mobileMenu{
+        display: none;
+    }
+   
+}
+
+

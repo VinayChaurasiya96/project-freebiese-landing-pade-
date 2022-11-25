@@ -1,0 +1,36 @@
+.subMain {
+    background: white;
+    padding: 10px 20px;
+    margin-top: 100px;
+    box-shadow: 7px 12px 18px #c3a4a4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.subLeft h1 {
+    width: 55%;
+    line-height: 38px;
+}
+
+.subRight button {
+   
+   
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+    
+    border: 2px solid #F53838;
+    padding: 8px 35px;
+  
+    font-weight: bolder;
+    border-radius: 8px;
+    background: #F53838;
+  
+}
+
