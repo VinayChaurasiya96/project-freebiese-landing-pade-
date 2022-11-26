@@ -1,6 +1,11 @@
 .card_slide{
-    border: 2px solid black;
+    border: 2px solid #DDDDDD;
     padding: 15px;
+    height: 140px;
+    border-radius: 10px;
+}
+.card_slide:hover{
+    border: 2px solid #F53838;
 }
 
 .title{
@@ -8,7 +13,7 @@
 }
 .pt{
     margin-left: 21px;
-    margin-right: 47%;
+   
 }
 .pt p{
     margin: 0;
@@ -24,7 +29,7 @@
 }
 
  .testimonials {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .head h1 {
@@ -41,4 +46,13 @@
     line-height: 30px;
     margin-bottom: 50px;
     text-align: center;
+}
+.ranking {
+    margin-left: 106px;
+}
+
+.desc {
+    position: absolute;
+    bottom: 13px;
+    height: 71px;
 }

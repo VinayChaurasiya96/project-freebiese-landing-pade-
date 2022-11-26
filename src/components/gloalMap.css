@@ -1,5 +1,5 @@
 .mapMain img{
-    width: 100%;
+    width: 70%;
 }
 .mapMain{
     text-align: center;
@@ -23,5 +23,7 @@
     justify-content: space-evenly;
 }
 .companylogo img {
-    width: 155px;
+   
+    width: 130px;
+    margin-top: 20px;
 }

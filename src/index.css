@@ -14,3 +14,16 @@ li{
   line-height: 35px;
   
 }
+.swiper-button-next {
+  display: none !important;
+}
+.swiper-button-prev {
+  display: none !important;
+}
+span.swiper-pagination-bullet {
+  display: none !important;
+}
+
+button:hover{
+  cursor: pointer;
+}
